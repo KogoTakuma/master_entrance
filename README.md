@@ -8,7 +8,7 @@
   + [微分積分](calculus.md)
   + [アルゴリズムとデータ構造](algorithm.md)
 - 専門科目：
-  + [統計学](statistics.md)
+  + [統計学](statics.md)
   + [情報理論](information.md)
 
 ## 参考書, 問題集
