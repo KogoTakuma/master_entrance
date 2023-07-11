@@ -16,4 +16,6 @@
 
 ### 設問5 要復習
 ガウス積分
-<details> $ t^{1/2}=t\prime $と置いて計算する </details>
+<details> <summary>ポイント</summary>
+  
+ $` t^{1/2}=t\prime `$と置いて計算する </details>
