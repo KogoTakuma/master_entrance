@@ -29,6 +29,7 @@ $`const`$ $`n!`$ $`nlogn`$ $`logn`$ $`n^a`$ $`a^n`$
 ### 木を表すデータ構造
 ### 二分探索木
 ### ヒープ
+### (AVL木)[https://daeudaeu.com/avl_tree/] 
 ### b*木
 
 ## グラフ探索
