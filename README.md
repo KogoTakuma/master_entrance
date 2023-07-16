@@ -42,6 +42,7 @@
   + [合成関数の二次偏導関数](https://w3e.kanazawa-it.ac.jp/math/category/bibun/henbibun/henkan-tex.cgi?target=/math/category/bibun/henbibun/gouseikansuu-no-2ji-doukansuu.html)
 - アルゴリズムとデータ構造
   + [2021年度 京都大学 工学部情報学科 「アルゴリズムとデータ構造」](https://hkashima.github.io/course_algorithm_2021.html)
+  + [アルゴリズムとデータ構造 確認用シート](algorithm_cehck.md)
 - 統計学
   + [統計学|検出力とはなんぞや](https://note.com/hanaori/n/nc55ac8614799)
 - 情報理論
