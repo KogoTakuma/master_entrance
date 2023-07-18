@@ -6,6 +6,7 @@
 - 情報学基礎：
   + [線形代数](linear.md)
   + [微分積分](calculus.md)
+  + [数学(未分類)](mathmatics_others.md)
   + [アルゴリズムとデータ構造](algorithm.md)
 - 専門科目：
   + [統計学](statics.md)
