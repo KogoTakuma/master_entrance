@@ -47,6 +47,7 @@
   + [Programming Place Plus　アルゴリズムとデータ構造編](https://programming-place.net/ppp/contents/algorithm/index.html#data_struct)
 - 統計学
   + [統計学|検出力とはなんぞや](https://note.com/hanaori/n/nc55ac8614799)
+  + [検定 確認用シート](statics_check.md)
 - 情報理論
 
 ## 解いた年
