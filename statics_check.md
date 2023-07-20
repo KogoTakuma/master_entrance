@@ -13,12 +13,30 @@
 | 等分散の検定   $`\dfrac{{\sigma_1}^2}{{\sigma_2}^2}`$ |$`\frac{\max ({s_1}^2,{s_2}^2)}{\min ({s_1}^2,{s_2}^2)}\sim F_{(n_1,n_2)} or F_{(n_2,n_1)}`$ |        | 
 | 母比率    $`p`$                    |    $`\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}\sim z `$    |        | 
 | 母比率の差    $`p_1 - p_2`$                     |    $`\frac{\hat{p_1}-\hat{p_1}}{\sqrt{\hat{p}(1-\hat{p})(1/n_1+1/n_2)}}\sim z `$    |        | 
-| 対応のある平均の差   $`d = \mu_1 - \mu_2`$      |        |        | 
+| 対応のある平均の差   $`d = \mu_1 - \mu_2`$      |  $`\dfrac{\bar{d}}{\sqrt{{s_d}^2/n}}`$      |        | 
 
 
-F分布の特性
+## F分布の特性
 
-カイ二乗検定
+## カイ二乗検定
+$`\sum{(O-E)^2/E}`$
+O(Observed), E(Expected)
 
-適合度検定
-`$n \times m$分割表`
+### 適合度検定
+$`\chi^2(n-1) \sim \sum_{i=1}^n \frac{(f_i-np_1)^2}{np_i} `$
+
+
+
+
+$`r \times c`$分割表
+
+### 独立性の場合
+$`E_{ij}=n\hat{p_{i\cdot}}\hat{p_{\cdot j}},  O_{ij}=f_{ij}`$とする。
+$`\chi^2((r-1)(c-1)) \sim \sum\sum\frac{(O-E)^2}{E}`$
+
+### イェーツの補正
+$`2 \times 2`$のクロス集計表のデータに対し検定を行う際に使う補正。検出力が低下する代わりにより正確な検定ができる
+
+$`\chi_{0}^{2} = \frac {n(|O_{11}O_{22} - O_{12}O_{21}| - n/2)^{2}}
+{n_{1\cdot}n_{2\cdot}n_{\cdot1}n_{\cdot2}}`$
+
