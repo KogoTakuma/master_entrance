@@ -32,6 +32,10 @@
 
 ## F分布の特性
 
+モーメント母関数は存在しない
+
+$`F_{m,n}(\alpha)= \frac{1}{F_{n,m}(1-\alpha}`$
+
 ## カイ二乗検定
 $`\sum{(O-E)^2/E}`$
 O(Observed), E(Expected)
