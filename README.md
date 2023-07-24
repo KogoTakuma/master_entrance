@@ -46,6 +46,7 @@
   + [2021年度 京都大学 工学部情報学科 「アルゴリズムとデータ構造」](https://hkashima.github.io/course_algorithm_2021.html)
   + [アルゴリズムとデータ構造 確認用シート](algorithm_check.md)
   + [Programming Place Plus　アルゴリズムとデータ構造編](https://programming-place.net/ppp/contents/algorithm/index.html#data_struct)
+  + [B木](http://www.akita-pu.ac.jp/system/elect/ins/kusakari/japanese/teaching/SoftTech/2008/note/7.pdf)
 - 統計学
   + [統計学|検出力とはなんぞや](https://note.com/hanaori/n/nc55ac8614799)
   + [検定 確認用シート](statics_check.md)
