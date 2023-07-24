@@ -38,6 +38,7 @@
   + [Jordan標準系の計算の仕方](http://www.math.tohoku.ac.jp/~kuroki/LaTeX/20100609_Jordan.pdf)
 - 微分積分
   + [瞬間部分積分](https://manabitimes.jp/math/823)
+  + [数学の景色 ロピタルの定理を誤りなく使おう～具体例6つと証明～](https://mathlandscape.com/lhopital/#toc6)
   + [【大学数学】ガウス積分の類似形【解析学】](https://www.youtube.com/watch?v=u6sBzqF8gWI)
   + [合成関数の偏導関数](https://w3e.kanazawa-it.ac.jp/math/category/bibun/henbibun/henkan-tex.cgi?target=/math/category/bibun/henbibun/gouseikansuu-no-henbibun.html)
   + [合成関数の二次偏導関数](https://w3e.kanazawa-it.ac.jp/math/category/bibun/henbibun/henkan-tex.cgi?target=/math/category/bibun/henbibun/gouseikansuu-no-2ji-doukansuu.html)
