@@ -22,7 +22,7 @@
 | 母平均の差 (標本は別)$`\mu_1 - \mu_2`$<br>分散既知 $`{\sigma_1}^2,{\sigma_2}^2`$|    $`\dfrac{(\bar{x}-\bar{y})}{\sqrt {\frac{{\sigma_1}^2}{{n_1}^2}+ \frac{{\sigma_2}^2}{{n_2}^2} }}\sim z`$     |     $`\dfrac{(\bar{x}-\bar{y})}{\sqrt {\frac{{\sigma_1}^2}{{n_1}^2}+ \frac{{\sigma_2}^2}{{n_2}^2} }}\sim z`$    | 
 | 母平均の差 (標本は別)$`\mu_1 - \mu_2`$<br>分散未知$`({\sigma_1}^2={\sigma_2}^2)`$ |   $`\dfrac{(\bar{x}-\bar{y})}{\sqrt {\frac{{s_1}^2}{{n_1}^2}+ \frac{{s_2}^2}{{n_2}^2} }}\sim z`$<br> $`n_1,n_2\geq 30`$ なので上と同じ    |    $`\dfrac{(\bar{x}-\bar{y})}{\sqrt{ u^2 {\frac{1}{n_1}+ \frac{1}{n_2} }}}\sim t_{n_1+n_2-2}`$ <br> $`u^2 = \dfrac{(n_1-1){s_1}^2+(n_2-1){s_2}^2}{n_1+n_2-2}`$<br>母集団は正規分布でないと使えない    | 
 | 母分散   $`\sigma^2`$<br>母集団は正規分布 | $`\frac{(n-1){s_1}^2}{{\sigma_1}^2} \sim {\chi_{n-1}}^2`$   | $`\frac{(n-1){s_1}^2}{{\sigma_1}^2} \sim {\chi_{n-1}}^2`$ | 
-| 等分散の検定   $`\dfrac{{\sigma_1}^2}{{\sigma_2}^2}`$ |$`\frac{\max ({s_1}^2,{s_2}^2)}{\min ({s_1}^2,{s_2}^2)}\sim F_{(n_1,n_2)} or F_{(n_2,n_1)}`$ |        | 
+| 等分散の検定   $`\dfrac{{\sigma_1}^2}{{\sigma_2}^2}`$ |$`\frac{\max ({s_1}^2,{s_2}^2)}{\min ({s_1}^2,{s_2}^2)}\sim F_{(n_1-1,n_2-1)} or F_{(n_2-1,n_1-1)}`$ |        | 
 | 母比率    $`p`$                    |  中心極限定理より正規分布に近似できる<br>  $`\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}\sim z `$  <br>($`np>5,nq>5,n>30`$)  |  近似できる分布はないので、そのまま確立を出す      | 
 | 母比率の差    $`p_1 - p_2`$                     |    $`\frac{\hat{p_1}-\hat{p_1}}{\sqrt{\hat{p}(1-\hat{p})(1/n_1+1/n_2)}}\sim z `$  <br>($`n_1p_1>5,n_1q_1>5,n_1>30`$)<br>($`n_2p_2>5,n_2q_2>5,n_2>30`$)  |    記載なし、近似できるものはない？    | 
 | 対応のある平均の差   $`d = \mu_1 - \mu_2`$      |     記載なし、おそらく標準正規分布と見做せる  |      $`\dfrac{\bar{d}}{\sqrt{{s_d}^2/n}}`$   | 
@@ -60,19 +60,20 @@ ex)$`E[\hat{\theta}]=\theta, E[s^2]=\sigma^2`$
 
 $`F_{m,n}(\alpha)= \frac{1}{F_{n,m}(1-\alpha)}`$
 
-## カイ二乗検定
+### カイ二乗検定
 $`\sum{(O-E)^2/E}`$
 O(Observed), E(Expected)
 
 ### 適合度検定
-$`\chi^2(n-1) \sim \sum_{i=1}^n \frac{(f_i-np_1)^2}{np_i} `$
 
+互いに相反なk個に分類されるデータがある。このうちの推定したい母数のパラメーターの数をcとすると以下のようになる。
 
+$`\chi^2(k-c-1) \sim \sum^k_{i=1}\frac{(f_i-np_1)^2}{np_i} `$
 
-
-$`r \times c`$分割表
 
 ### 独立性の場合
+
+$`r \times c`$分割表
 $`E_{ij}=n\hat{p_{i\cdot}}\hat{p_{\cdot j}},  O_{ij}=f_{ij}`$とする。
 $`\chi^2((r-1)(c-1)) \sim \sum\sum\frac{(O-E)^2}{E}`$
 
