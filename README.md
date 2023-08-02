@@ -48,6 +48,8 @@
   + [アルゴリズムとデータ構造 確認用シート](algorithm_check.md)
   + [Programming Place Plus　アルゴリズムとデータ構造編](https://programming-place.net/ppp/contents/algorithm/index.html#data_struct)
   + [B木](http://www.akita-pu.ac.jp/system/elect/ins/kusakari/japanese/teaching/SoftTech/2008/note/7.pdf)
+  + [典型的な DP (動的計画法) のパターンを整理 Part 1 ～ ナップサック DP 編 ～](https://qiita.com/drken/items/a5e6fe22863b7992efdb#問題-9最小コスト弾性マッチング問題)
+
 - 統計学
   + [統計学|検出力とはなんぞや](https://note.com/hanaori/n/nc55ac8614799)
   + [検定 確認用シート](statics_check.md)
